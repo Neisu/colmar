@@ -5,30 +5,38 @@ html, body {
 
 header {
     display: flex;
-    max-height: 64px;
+    height: 64px;
     margin: 0 24px;
     max-width: 100%;
 }
 
 header span {
-    display: inline-flex;
-    text-align: center;
+    display: flex;
+    color: #d9d8da;
+    align-items: center;
+    font-size: 32px;
 }
 
 header li {
     list-style: none;
-    color: #000000;
     display: inline-flex;
-    justify-content: flex-end;
-    width: 100%;
+    margin-inline-start: 16px;
 }
 
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 ul {
     text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+b {
+    color: black;
 }
 
 .main {
@@ -47,4 +55,91 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
+    color: #4b4a4c;
+    font-size: 28px;
+}
+
+.text span {
+    color: #4b4a4c;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.text button {
+    width: 80%;
+    padding: 16px 0;
+    background-color: #4b4a4c;
+    color: #ffffff;
+    border: 0;
+    font-size: 24px;
+}
+
+.nav {
+    width: 100%;
+}
+
+.infos {
+    display: flex;
+    padding-top: 32px;
+    padding-left: 24px;
+    max-width: 100%;
+}
+
+.inf {
+    width: 60%;
+    flex-wrap: wrap;
+    padding-right: 24px;
+    padding-bottom: 32px;
+}
+
+.inf img {
+    width: 100%;
+}
+
+.inf h1 {
+    width: 60%;
+}
+
+.inf span {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#text {
+    padding-top: 28px;
+}
+
+.right {
+    max-width: 40%;
+    flex-wrap: wrap;
+    display: flex;
+    border-radius: 6px;
+    border-color: #4b4a4c;
+    
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content img {
+    width: 35%;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+}
+
+.cont h1 {
+    height: auto;
+    margin: 0 auto;
+}
+
+.cont span {
+    margin: 0 24px;
 }
