@@ -81,16 +81,13 @@ b {
 
 .infos {
     display: flex;
-    padding-top: 32px;
-    padding-left: 24px;
     max-width: 100%;
 }
 
 .inf {
     width: 60%;
     flex-wrap: wrap;
-    padding-right: 24px;
-    padding-bottom: 32px;
+    padding: 32px 24px;
 }
 
 .inf img {
@@ -117,7 +114,8 @@ b {
     display: flex;
     border-radius: 6px;
     border-color: #4b4a4c;
-    
+    align-content: flex-start;
+    margin-top: 16px;
 }
 
 .content {
