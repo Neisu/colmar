@@ -36,7 +36,7 @@ ul {
 }
 
 b {
-    color: black;
+    color: #000000;
 }
 
 .main {
@@ -95,7 +95,7 @@ b {
 }
 
 .inf h1 {
-    width: 60%;
+    width: 100%;
 }
 
 .inf span {
@@ -150,4 +150,57 @@ b {
     color: #0000ff;
 }
 
- 
+ .mort {
+    background-color: #d9d8da;
+    max-width: 100%;
+    padding: 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+ .mort h1 {
+    width: 100%;
+    text-align: center;
+    padding: 32px 48px;
+ }
+
+.fa {
+
+    width: 350px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+}
+
+.fa img {
+    height: auto;
+    width: 100%;
+}
+
+.fa span {
+    padding-bottom: 24px;
+    padding-left: 16px;
+}
+
+.fa a {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 100%;   
+    background-color: #ffffff;
+    z-index: 6;
+}
+
+.fa h2 {
+    padding-left: 16px;
+    display: flex;
+}
+
+#og {
+    padding-top: 8px;
+}
+
+.fa p {
+    padding-left: 16px;
+    display: flex;
+}
