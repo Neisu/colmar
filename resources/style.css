@@ -19,12 +19,15 @@ header span {
 
 header li {
     list-style: none;
-    display: inline-flex;
     margin-inline-start: 16px;
 }
 
 header img {
     max-height: 100%;
+}
+
+header a {
+    display: flex;
 }
 
 a {
@@ -77,6 +80,7 @@ b {
     color: #ffffff;
     border: 0;
     font-size: 24px;
+    opacity: 0.5;
 }
 
 .nav {
@@ -299,23 +303,94 @@ footer div {
 
 .elr li {
     list-style: none;
-}
+}    
+
 
 @media screen and (max-width: 950px) {
     html, body, h1, span, header span, header b {
-        font-size: 8px;
-    }
-}
+        font-size: 16px;
+    }    
+}    
 
 @media screen and (max-width: 768px) {
     header ul, header span, div .inf, .ok {
         display: none;
+    }    
+    
+    header {
+        justify-content: space-evenly;
+        margin: 0;
+    }    
+    
+    header img {
+        max-width: 38px;
+    }    
+    
+    .main {
+        flex-wrap: wrap;
+    }    
+    
+    .main img {
+        height: 90%;
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+    }    
+    
+    .text {
+        width: 100%;
+        padding: 32px 16px;
+    }    
+    
+    .text h1 {
+        font-size: 32px;
+        margin-top: 0;
+        margin-bottom: 32px;
+    }    
+    
+    .text span {
+        font-size: 20px;
+        font-weight: 400;
+        padding-bottom: 24px;
+    }    
+    
+    .text button {
+        width: 100%;
+    }    
+    
+    .right {
+        max-width: 100%;
+        max-height: -webkit-fill-available;
     }
+    
+    .content {
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }    
+    
+    .content img {
+        max-width: 100%;
+        width: 100%;
+        height: 50%;
+    }    
+
+    .cont h1 {
+        font-size: 48px;
+        flex-shrink: 1;
+    }
+
+    .cont span {
+        font-size: 16px;
+    }
+    
+}    
+
+.phone {
+    display: flex;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     .phone {
         display: none;
     }
 }
-
